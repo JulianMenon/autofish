@@ -5,7 +5,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ^f::
 	WinActivate, ahk_exe Discord.exe
-	Send, t{!}fish
+	Send, t{!}fishy
 	Send, {enter}
 	Sleep 31000
 	
